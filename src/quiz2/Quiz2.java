@@ -24,7 +24,7 @@ public class Quiz2 {
     
 
     
-    public static boolean login()
+    private static boolean login()
     {
         boolean login = false;
         if (incorrectUsername.equalsIgnoreCase(username)){
@@ -51,7 +51,7 @@ public class Quiz2 {
     }
     public static void main(String[] args) {
        
-      incorrectUsername = JOptionPane.showInputDialog("Please enter username");
-       login(); // inserts method
-    } 
+        incorrectUsername = JOptionPane.showInputDialog("Please enter username");
+        login(); // inserts method
+}
 }
